@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:fontFamily="sans-serif-black"
-            android:text="Registration Form"
+            android:text="@string/registration_form"
             android:textColor="#000000"
             android:textSize="34sp" />
 
@@ -38,7 +38,7 @@
             android:layout_marginTop="20dp"
             android:layout_weight="4"
             android:fontFamily="sans-serif-black"
-            android:text="Full Name"
+            android:text="@string/full_name"
             android:textSize="18sp" />
 
         //First Name
@@ -51,7 +51,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:text="First Name"
+            android:text="@string/first_name"
             android:textSize="18sp" />
 
         //Last Name
@@ -63,7 +63,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:text="Last Name"
+            android:text="@string/last_name"
             android:textSize="18sp" />
 
 
@@ -82,24 +82,24 @@
             android:layout_marginTop="20dp"
             android:layout_weight="4"
             android:fontFamily="sans-serif-black"
-            android:text="Gender"
+            android:text="@string/gender"
             android:textSize="18sp" />
 
-        <CheckBox
-            android:id="@+id/checkBox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_weight="5"
-            android:text="Female" />
-
-        <CheckBox
-            android:id="@+id/checkBox2"
+        <RadioButton
+            android:id="@+id/radioButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_weight="5"
             android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="5"
+            android:text="Female" />
 
 
     </LinearLayout>
@@ -117,7 +117,7 @@
             android:layout_marginTop="20dp"
             android:layout_weight="2"
             android:fontFamily="sans-serif-black"
-            android:text="Student ID"
+            android:text="@string/student_id"
             android:textSize="18sp" />
 
         <EditText
@@ -127,7 +127,7 @@
             android:layout_weight="5"
             android:fontFamily="sans-serif-light"
             android:minHeight="48dp"
-            android:text="Enter your Student ID"
+            android:text="@string/enter_your_student_id"
             android:textSize="18sp" />
 
     </LinearLayout>
@@ -146,7 +146,7 @@
             android:fontFamily="sans-serif-black"
             android:textSize="18sp"
             android:layout_weight="2"
-            android:text="School" />
+            android:text="@string/school" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -155,7 +155,7 @@
             android:layout_weight="2.5"
             android:fontFamily="sans-serif-light"
             android:minHeight="48dp"
-            android:text="Enter your school" />
+            android:text="@string/enter_your_school" />
 
 
 
@@ -177,7 +177,7 @@
             android:textSize="18sp"
             android:fontFamily="sans-serif-black"
             android:layout_weight="1"
-            android:text="Email" />
+            android:text="@string/email" />
 
         <EditText
             android:id="@+id/editTextTextPersonName4"
@@ -189,7 +189,7 @@
             android:fontFamily="sans-serif-light"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:text="Enter your email" />
+            android:text="@string/enter_your_email" />
 
 
     </LinearLayout>
@@ -207,7 +207,7 @@
             android:layout_marginTop="20dp"
             android:layout_weight="1"
             android:fontFamily="sans-serif-black"
-            android:text="Phone"
+            android:text="@string/phone"
             android:textSize="18sp" />
 
         <EditText
@@ -220,7 +220,7 @@
             android:fontFamily="sans-serif-light"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:text="Enter your phone number" />
+            android:text="@string/enter_your_phone_number" />
 
 
     </LinearLayout>
@@ -236,7 +236,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="150dp"
             android:layout_marginTop="30dp"
-            android:text="Register" />
+            android:text="@string/register" />
     </LinearLayout>
 
 </LinearLayout>
